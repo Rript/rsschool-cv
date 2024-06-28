@@ -27,7 +27,7 @@ alert('hello world')
 
 ******
 ### Expirience
-* 
+* No experience
 
 ******
 ### Education
