@@ -1,15 +1,20 @@
 @import url(../css/reset.css);
+/* 
+* {
+    background-image: url(../images/portfolio-beta.png);
+    background-repeat: no-repeat;
+} */
 
 
 /* PARALAX */
 
-.parallax {
+/* .parallax {
     background-image: url(../images/mountains.png);
-    height: 500px;
+    height: 100%;
+    width: 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    display: block;
     display: flex;
     justify-content: center;
     color: #ffffff;
@@ -26,8 +31,25 @@
 }
 .parallax h1 {
     z-index: 3;
-}
+} */
 
 /* NAVIGATION */
 
+.navigation {
+    height: 50px;
+    list-style: none;
+    background-color: black;
+}
+
+/* MAIN */
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.avatar {
+    width: 25%;
+    height: 30%;
+}
 
