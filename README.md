@@ -1,2 +1,2 @@
-[# rsschool-cv](https://Rript.github.io/rsschool-cv/cv)
-[# rsschool-cv](https://Rript.github.io/rsschool-cv/)
+[# cv-markdown](https://Rript.github.io/rsschool-cv/cv)
+[# cv-landing](https://Rript.github.io/rsschool-cv/)
