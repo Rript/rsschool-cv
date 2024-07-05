@@ -32,24 +32,88 @@
 .parallax h1 {
     z-index: 3;
 } */
-
-/* NAVIGATION */
-
-.navigation {
-    height: 50px;
-    list-style: none;
-    background-color: black;
-}
-
-/* MAIN */
-
 .container {
     width: 1200px;
     margin: 0 auto;
 }
 
-.avatar {
-    width: 25%;
-    height: 30%;
+/* NAVIGATION */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
 }
 
+.navbar {
+    background-color: rgb(3, 206, 206);
+    display: flex;
+    justify-content: space-around;
+    font-size: 50px;
+}
+
+.navbar li a{
+    color: azure;
+}
+
+.navbar li a:hover {
+    color: blue;
+}
+
+
+
+
+/* MAIN */
+.main_content {
+    background-color: rgb(200, 250, 250);
+}
+.about_me {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.image_avatar {
+    height: 100%;
+    width: 25%;
+    float: left;
+}
+.my_name {
+    width: 30%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+/* ABOUT (need fix)*/
+h1 {
+    font-size: 60px;
+    
+}
+
+h2 {
+    color: black;
+    font-size: 50px;
+}
+
+p {
+    color: blue;
+    font-size: 40px;
+}
+
+/*FOOTER*/ 
+.footer {
+    background-color: rgb(3, 206, 206);
+    display: flex;
+    justify-content: left;
+}
+
+.footer_list {
+    display: flex;
+}
+
+.git_image {
+    width: 20%;
+}
+
+.rsschool_image {
+    width: 20%;
+}
